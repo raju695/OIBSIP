@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #1e293b;
+}
+
+.nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.brand {
+    color: #38bdf8;
+}
+
+.hero {
+    height: 85vh;
+    background: linear-gradient(to right, #38bdf8, #0ea5e9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 42px;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 12px 28px;
+    border: none;
+    background-color: #1e293b;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #f1f5f9;
+}
+
+.card {
+    background-color: white;
+    width: 28%;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    background-color: #e0f2fe;
+    padding: 50px 20px;
+}
+
+.stats h3 {
+    font-size: 30px;
+    color: #0369a1;
+}
+
+footer {
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
